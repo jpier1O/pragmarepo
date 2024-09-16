@@ -1,16 +1,36 @@
-# pragmacat_app
+# Pragmacat App
 
-A new Flutter project.
+Pragmacat App es una aplicación móvil desarrollada en Flutter para Pragma que usa el api
+API: https://api.thecatapi.com/v1/breeds
+utilizando, cuando sea necesario, el header x-api-key o el query string parameter
+api_key con el siguiente valor:
+live_99Qe4Ppj34NdplyLW67xCV7Ds0oSLKGgcWWYnSzMJY9C0QOu0HUR4azYxWkyW2nr
 
-## Getting Started
+Documentacion: https://developers.thecatapi.com/
 
-This project is a starting point for a Flutter application.
+## Requisitos
 
-A few resources to get you started if this is your first Flutter project:
+Asegúrate de tener los siguientes requisitos instalados en tu máquina:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- [Flutter](https://flutter.dev/docs/get-started/install) (versión 2.0.0 o superior)
+- [Dart SDK](https://dart.dev/get-dart) (viene incluido con Flutter)
+- [Git](https://git-scm.com/downloads)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Instalación
+
+Sigue estos pasos para clonar y ejecutar el proyecto en tu máquina local:
+
+1. **Clona el repositorio:**
+
+   ```bash
+   git clone https://github.com/tu-usuario/pragmacat_app.git
+   cd pragmacat_app
+   ```
+
+2. **Ejecuta:**
+
+   flutter pub get
+
+3. **Finaliza corriendo el proyecto:**
+
+   flutter pub get
