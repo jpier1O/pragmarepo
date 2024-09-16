@@ -115,11 +115,10 @@ class _LandingScreenState extends State<LandingScreen> {
   }
 
   void _onSearchChanged() {
-    // Actualizar los resultados de búsqueda cuando el usuario escribe
     setState(() {
       String searchText = searchController.text.toLowerCase();
       if (searchText.isEmpty) {
-        filteredCatBreeds = catBreeds; // Mostrar todos los registros si no hay input
+        filteredCatBreeds = catBreeds;
       } else {
         filteredCatBreeds = catBreeds
             .where((cat) => cat['name'].toLowerCase().contains(searchText))
